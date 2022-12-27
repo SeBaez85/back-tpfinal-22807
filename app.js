@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import employeeRoutes from "../back/routes/employeeRoutes.js"
 import db from "../back/database/db.js"
-import {PORT} from "./config"
+import {PORT} from "./config.js"
 
 const app = express();
 
